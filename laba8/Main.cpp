@@ -17,7 +17,7 @@ int main() {
 	cout << "Enter x, y, z";
 	cin >> x >> y >> z;
 	a = func1(x, y, z);
-	cout << a << endl;
+	cout << "a=" << a << endl;
 	cout << func2(x, y, z, a) << endl;
 	a2 = int(a);
 	cout << func3(a2);
