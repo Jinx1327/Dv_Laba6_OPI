@@ -14,11 +14,11 @@ using namespace std;
 int main() {
 	float a, z, b, x, y;
 	int a2, sum;
-	cout << "Enter x, y, z";
+	cout << "Enter x, y, z" << endl;
 	cin >> x >> y >> z;
 	a = func1(x, y, z);
-	cout << "a=" << a << endl;
-	cout << func2(x, y, z, a) << endl;
+	cout << "a= " << a << endl;
+	cout << "b= " << func2(x, y, z, a) << endl;
 	a2 = int(a);
 	cout << func3(a2);
 }
