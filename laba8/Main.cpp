@@ -14,6 +14,7 @@ using namespace std;
 int main() {
 	float a, z, b, x, y;
 	int a2, sum;
+	cout << "Enter x, y, z";
 	cin >> x >> y >> z;
 	a = func1(x, y, z);
 	cout << a << endl;
