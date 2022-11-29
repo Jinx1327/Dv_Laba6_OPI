@@ -30,3 +30,19 @@ int func3(int a) {
 	}
 	return sum;
 }
+
+int func3(int a) {
+	int sum; {
+		sum = 0;
+		while (a > 9) {
+			sum += a % 10;
+			a = a / 10;
+		}
+		sum += a;
+	}
+	return sum;
+}
+
+int func4(int x) {
+	return x+1;
+}
