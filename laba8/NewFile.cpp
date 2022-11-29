@@ -6,3 +6,7 @@
 int newfunc(int x) {
 	return x+1;
 }
+
+int newNewfunc(int y) {
+	return y + 1;
+}
